@@ -1,0 +1,159 @@
+body {
+  font-family: sans-serif;
+}
+.label {
+  padding-right: 15px;
+}
+.content {
+  display: flex;
+}
+.content-kiri {
+  flex: 1;
+}
+.content-kanan {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.input-btn {
+  font-size: 16px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  justify-content: right;
+  align-items: right;
+  color: white;
+  cursor: pointer;
+  background-color: #20eee4;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 3px 3px 3px rgb(12, 161, 206);
+}
+.input-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-btn:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+  width: calc(145% - 16px);
+  font-size: 14px;
+}
+.pesan-error {
+  color: red;
+  margin-top: 2px;
+  text-align: center;
+  padding: 10px;
+}
+.pesan-sukses {
+  color: green;
+  margin-top: 2px;
+  text-align: center;
+  padding: 10px;
+}
+.tampil-table,
+.tampil-th,
+.tampil-td {
+  padding: 1rem;
+}
+
+.tampil-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.tampil-th,
+.tampil-td {
+  border: 1px solid rgb(25, 148, 219);
+  padding: 8px;
+  text-align: left;
+}
+.tampil-th {
+  position: sticky;
+  background-color: #d5d1defe;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+tbody .tampil-tr:nth-child(even) {
+  background-color: #20cecee7;
+}
+
+tbody .tampil-tr:hover {
+  background-color: rgba(38, 11, 114, 0.719);
+}
+
+/* Centering text in paragraph */
+p {
+  text-align: center;
+  font-size: 1.2em; /* Optional: adjust font size */
+  margin: 0; /* Optional: remove default margin if needed */
+  padding: 10px; /* Optional: add padding for spacing */
+}
+
+/*  */
+
+/* General body and font styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #21a1a5;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: column; /* Align items to the right */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* Background color on hover */
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #20eee4;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
